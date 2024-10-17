@@ -10,7 +10,7 @@ def fetchData(modelName, version):
     Trace information about a model using its name and the specific version stored in the 
     MLflow Model Registry. Once the corresponding run is obtained, retrieve the relevant information.
     """
-
+# ciao boh
     # Search for the model by name
     client = MlflowClient()
     model_versions = client.search_model_versions(f"name='{modelName}'")
